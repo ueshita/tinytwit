@@ -1,24 +1,23 @@
 tinytwit
 ========
 
-= whats this?
-自作ゲームにツイート機能を付けたいと思い。
-シンプルなツイートライブラリを作りました。
+whats this?
+- 自作ゲームにツイート機能を付けたいと思い。シンプルなツイートライブラリを作りました。
 
 ↓下記のソースコードを元に作っています
-http://www.soramimi.jp/twicpp/
+- http://www.soramimi.jp/twicpp/
 
 
-= how to use
-使用するにはTwitterでいろいろ手続きをする必要があります。
+how to use~
+使用するにはTwitterでいろいろ手続きをする必要があります。~
 https://dev.twitter.com/
 
 - デベロッパー登録
 - アプリケーション登録
 - Consumer KeyとConsumer Secretを取得
 
-
-libauthの派生物のらしいので、下記ライセンス文を含める必要があるようです。
+licence
+- libauthの派生物のらしいので、下記ライセンス文を含める必要があるようです。
 
  * Copyright 2007-2010 Robin Gareus <robin@gareus.org>
  * 
