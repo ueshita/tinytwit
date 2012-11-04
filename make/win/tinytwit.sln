@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tinytwit", "tinytwit.vcxproj", "{CBABA53B-CA0F-4011-9392-55A372F596CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_tinytwit", "test_tinytwit.vcxproj", "{7B299B8F-2608-4FA9-90FC-3C5D6BE29792}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBABA53B-CA0F-4011-9392-55A372F596CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBABA53B-CA0F-4011-9392-55A372F596CC}.Debug|Win32.Build.0 = Debug|Win32
+		{CBABA53B-CA0F-4011-9392-55A372F596CC}.Release|Win32.ActiveCfg = Release|Win32
+		{CBABA53B-CA0F-4011-9392-55A372F596CC}.Release|Win32.Build.0 = Release|Win32
+		{7B299B8F-2608-4FA9-90FC-3C5D6BE29792}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B299B8F-2608-4FA9-90FC-3C5D6BE29792}.Debug|Win32.Build.0 = Debug|Win32
+		{7B299B8F-2608-4FA9-90FC-3C5D6BE29792}.Release|Win32.ActiveCfg = Release|Win32
+		{7B299B8F-2608-4FA9-90FC-3C5D6BE29792}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
