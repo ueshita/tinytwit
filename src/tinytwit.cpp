@@ -9,8 +9,8 @@
 static const char *url_request_token = "http://api.twitter.com/oauth/request_token";
 static const char *url_authorize = "http://api.twitter.com/oauth/authorize";
 static const char *uri_access_token = "http://api.twitter.com/oauth/access_token";
-static const char *uri_update = "http://api.twitter.com/1/statuses/update.xml";
-static const char *uri_update_with_media = "http://upload.twitter.com/1/statuses/update_with_media.xml";
+static const char *uri_update = "http://api.twitter.com/1.1/statuses/update.json";
+static const char *uri_update_with_media = "http://api.twitter.com/1.1/statuses/update_with_media.json";
 
 void twit_initialize(void)
 {
