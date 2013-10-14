@@ -179,7 +179,9 @@ void Socket::parse_http_result(
 					}
 					r[0] = '\0';
 					resheader.push_back(std::string(ptr));
-					if (memcmp(ptr, "Content-Length: ", 16) == 0) {
+					if (memcmp(ptr, "Content-Length: ", 16) == 0 || 
+						memcmp(ptr, "content-length: ", 16) == 0
+					) {
 						datalen = (size_t)atoi(&ptr[16]);
 						resdata.resize(datalen);
 					}
@@ -192,6 +194,9 @@ void Socket::parse_http_result(
 			}
 		}
 		if (headerEnd) {
+			if (datalen == 0xffffffff) {
+				break;
+			}
 			size_t len = min(bufcnt, datalen - datacnt);
 			memcpy(&resdata[datacnt], ptr, len);
 			datacnt += len;
